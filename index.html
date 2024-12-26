@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age of Empires</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+
+<div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
+    <!-- Here is where TIXAE Agents renders the widget. -->
+    <!-- Set render to 'full-width' then adjust the width and height to 500px (for example) to render the chatbot itself without the popup. -->
+</div>
+
+<!-- Remove 'defer' if you want widget to load faster (Will affect website loading) -->
+<script defer>
+    (function() {
+        window.VG_CONFIG = {
+            ID: "fr18dlo1jl26ncl5", // YOUR AGENT ID
+            region: 'eu', // YOUR ACCOUNT REGION 
+            render: 'bottom-right', // can be 'full-width' or 'bottom-left' or 'bottom-right'
+            stylesheets: [
+                // Base TIXAE Agents CSS
+                "https://vg-bunny-cdn.b-cdn.net/vg_live_build/styles.css",
+                // Add your custom css stylesheets, Can also add relative URL ('/public/your-file.css)
+            ],
+            // THIS IS SUPPOSED TO BE CHANGED OR REMOVED.
+            // user: {
+            //     name: 'John Doe', // User's name
+            //     email: 'johndoe@gmail.com', // User's email
+            //     phone: '+1234567890', // User's phone number
+            // }
+            // Optional user data -- end
+            // **
+            // userID: 'USER_ID', // If you want to use your own user_id
+            // autostart: true, // Whether to autostart the chatbot with the proactive message
+        }
+        var VG_SCRIPT = document.createElement("script");
+        VG_SCRIPT.src = "https://vg-bunny-cdn.b-cdn.net/vg_live_build/vg_bundle.js";
+        VG_SCRIPT.defer = true; // Remove 'defer' if you want widget to load faster (Will affect website loading)
+        document.body.appendChild(VG_SCRIPT);
+    })()
+</script>
+
+
+
+
+
+
+
+
+
+    <header>
+        <h1>Age of Empires</h1>
+        <nav>
+            <a href="#explore">Explore the Games</a>
+            <a href="#news">News & Updates</a>
+            <a href="#support">Get Support</a>
+            <a href="#community">Join the Community</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Conquer the Ages!</h2>
+        <p>Join millions of players in epic battles and strategic warfare.</p>
+        <a href="#explore" class="button">Explore Now</a>
+    </section>
+
+    <section id="explore" class="content">
+        <h2>Explore the Games</h2>
+        <div class="game-grid">
+            <div class="game-card">
+                <img src="images/aoe2.jpg" alt="Age of Empires II">
+                <h3>Age of Empires II: The Age of Kings</h3>
+                <p>Experience the classic battles and civilizations of the Middle Ages.</p>
+                <a href="#aoe2" class="button">Learn More</a>
+            </div>
+            <div class="game-card">
+                <img src="images/aoe3.jpg" alt="Age of Empires III">
+                <h3>Age of Empires III: The Asian Dynasties</h3>
+                <p>Discover new civilizations and conquer the New World!</p>
+                <a href="#aoe3" class="button">Learn More</a>
+            </div>
+            <div class="game-card">
+                <img src="images/aoe4.jpg" alt="Age of Empires IV">
+                <h3>Age of Empires IV: The New Age</h3>
+                <p>Experience the next chapter in the Age of Empires saga.</p>
+                <a href="#aoe4" class="button">Learn More</a>
+            </div>
+            <div class="game-card">
+                <img src="images/aoed.jpg" alt="Age of Empires: Definitive Edition">
+                <h3>Age of Empires: Definitive Edition</h3>
+                <p>Relive the classic real-time strategy game with enhanced graphics!</p>
+                <a href="#aoed" class="button">Learn More</a>
+            </div>
+            <div class="game-card">
+                <img src="images/aoemobile.jpg" alt="Age of Empires: Mobile Edition">
+                <h3>Age of Empires: Mobile Edition</h3>
+                <p>Take the battles on the go with the mobile version!</p>
+                <a href="#aoemobile" class="button">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="content">
+        <h2>News & Updates</h2>
+        <p>Stay informed with the latest news from the battlefield! Don’t miss out on upcoming expansions and events.</p>
+        <ul>
+            <li><strong>New Expansion Pack Announced!</strong> Release Date: January 15, 2025</li>
+            <li><strong>Developer Blog Update:</strong> Insights on upcoming features and improvements</li>
+            <li><strong>Community Spotlight:</strong> Highlighting amazing fan creations</li>
+        </ul>
+    </section>
+
+    <section id="support" class="content">
+        <h2>Get Support</h2>
+        <p>Facing a challenge? Our support team is here to assist you in your quest!</p>
+        <ul>
+            <li>🛠️ Technical Support</li>
+            <li>👤 Account Issues</li>
+            <li>❓ Gameplay Questions</li>
+        </ul>
+    </section>
+
+    <section id="community" class="content">
+        <h2>Join the Community</h2>
+        <p>Connect with other players, share your strategies, and join discussions!</p>
+        <a href="#forum" class="button">Visit the Forum</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Age of Empires. All rights reserved.</p>
+    </footer>
+</body>
+</html>
